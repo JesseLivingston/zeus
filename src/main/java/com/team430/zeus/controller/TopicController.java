@@ -1,0 +1,20 @@
+package com.team430.zeus.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.*;
+import com.team430.zeus.models.Topic;
+
+@Controller
+public class TopicController {
+
+    @RequestMapping(value = "/topics", method = RequestMethod.GET)
+    public @ResponseBody List<Topic> index(){
+        List<Topic> topics = new ArrayList<Topic>();
+
+        return topics;
+    }
+}
