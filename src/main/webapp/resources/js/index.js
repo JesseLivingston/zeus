@@ -1,12 +1,12 @@
 require.config({
-    baseUrl: "http://cdn.staticfile.org",
-
+    //baseUrl: "http://cdn.staticfile.org",
+    baseUrl: "resources/js",
     paths: {
         jquery: "jquery/2.1.1-rc2/jquery",
         domReady: "require-domReady/2.0.1/domReady",
         underscore: "underscore.js/1.6.0/underscore",
-        backbone: "backbone.js/1.1.2/backbone",
-        bootstrap: "twitter-bootstrap/3.2.0",
+        backbone: "backbone/1.1.2/backbone",
+        bootstrap: "twitter-bootstrap/3.2.0/js/bootstrap",
     },
 
     shim: {
@@ -23,18 +23,18 @@ require.config({
 
         //'bootstrap/bootstrap-slider': { deps: ['jquery'], exports: '$.fn.slider' },
         //'bootstrap/bootstrap-affix': { deps: ['jquery'], exports: '$.fn.affix' },
-        'bootstrap/bootstrap-alert': { deps: ['jquery'], exports: '$.fn.alert' },
-        'bootstrap/bootstrap-button': { deps: ['jquery'], exports: '$.fn.button' },
-        //'bootstrap/bootstrap-carousel': { deps: ['jquery'], exports: '$.fn.carousel' },
-        'bootstrap/bootstrap-collapse': { deps: ['jquery'], exports: '$.fn.collapse' },
-        'bootstrap/bootstrap-dropdown': { deps: ['jquery'], exports: '$.fn.dropdown' },
-        'bootstrap/bootstrap-modal': { deps: ['jquery'], exports: '$.fn.modal' },
-        'bootstrap/bootstrap-popover': { deps: ['jquery'], exports: '$.fn.popover' },
-        'bootstrap/bootstrap-scrollspy': { deps: ['jquery'], exports: '$.fn.scrollspy'        },
-        'bootstrap/bootstrap-tab': { deps: ['jquery'], exports: '$.fn.tab' },
-        'bootstrap/bootstrap-tooltip': { deps: ['jquery'], exports: '$.fn.tooltip' },
-        'bootstrap/bootstrap-transition': { deps: ['jquery'], exports: '$.support.transition' },
-        'bootstrap/bootstrap-typeahead': { deps: ['jquery'], exports: '$.fn.typeahead'  },
+        'twitter-bootstrap/3.2.0/js/alert': { deps: ['jquery'], exports: '$.fn.alert' },
+        'twitter-bootstrap/3.2.0/js/button': { deps: ['jquery'], exports: '$.fn.button' },
+        'twitter-bootstrap/3.2.0/js/carousel': { deps: ['jquery'], exports: '$.fn.carousel' },
+        'twitter-bootstrap/3.2.0/js/collapse': { deps: ['jquery'], exports: '$.fn.collapse' },
+        'twitter-bootstrap/3.2.0/js/dropdown': { deps: ['jquery'], exports: '$.fn.dropdown' },
+        'twitter-bootstrap/3.2.0/js/modal': { deps: ['jquery'], exports: '$.fn.modal' },
+        'twitter-bootstrap/3.2.0/js/popover': { deps: ['jquery'], exports: '$.fn.popover' },
+        'twitter-bootstrap/3.2.0/js/scrollspy': { deps: ['jquery'], exports: '$.fn.scrollspy'        },
+        'twitter-bootstrap/3.2.0/js/tab': { deps: ['jquery'], exports: '$.fn.tab' },
+        'twitter-bootstrap/3.2.0/js/tooltip': { deps: ['jquery'], exports: '$.fn.tooltip' },
+        'twitter-bootstrap/3.2.0/js/transition': { deps: ['jquery'], exports: '$.support.transition' },
+        //'twitter-bootstrap/3.2.0/bootstrap-typeahead': { deps: ['jquery'], exports: '$.fn.typeahead'  },
     }
 });
 
